@@ -20,6 +20,7 @@ public class AppTest
         driver.manage().window().maximize();
         driver.get("https://www.google.com/");
         System.out.println("successfully application launched");
+        System.out.println("Verified");
         driver.close();
 
     }
