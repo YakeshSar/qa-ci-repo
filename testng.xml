@@ -1,0 +1,10 @@
+<!-- testng.xml -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" verbose="1">
+    <test name="Regression Tests">
+        <classes>
+            <!-- Replace with your actual test class paths -->
+            <class name="org.scalesoft.AppTest"/>
+        </classes>
+    </test>
+</suite>
